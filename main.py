@@ -14,7 +14,7 @@ class Example(QMainWindow, Ui_MainWindow):
         super().__init__()
         self.setupUi(self)
         self.flag = False
-        self.setWindowTitle('Супрематизм')
+        self.setWindowTitle('Супер шарики')
         self.pushButton.clicked.connect(self.draw)
         self.coords = []
 
